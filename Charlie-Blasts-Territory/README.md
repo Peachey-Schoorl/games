@@ -1,5 +1,6 @@
 ---
 title: Charlie Blast's Territory - N64 Level Codes
+permalink: /Charlie-Blasts-Territory/
 ---
 
 <link rel="stylesheet" href="main.css" />
