@@ -1,0 +1,70 @@
+html {
+  background: linear-gradient(90deg, #433F81, #252B27);
+}
+
+body {
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: contain;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+.level {
+  text-align: center;
+}
+
+.level:before {
+  color: white;
+  content: 'Level ' attr(data-level);
+  font-family: sans-serif;
+  font-size: 4vw;
+  left: 3vw;
+  position: absolute;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1vw;
+  box-shadow: black 0.1vw 0.1vw 0, black -0.1vw -0.1vw 0;
+  display: inline-block;
+  font-family: serif;
+  height: 8vw;
+  margin: 0.5vw;
+  text-align: center;
+  width: 5.5vw;
+}
+
+.card span {
+  display: none;
+}
+
+.card:after, .card:before {
+  font-size: 3vw;
+  height: 2vw;
+  width: 100%;
+  line-height: 7.5vw;
+}
+
+.suit-clubs, .suit-spades  {color: black}
+.suit-diamonds, .suit-hearts {color: red}
+
+.suit-clubs:after {content: '♣'}
+.suit-diamonds:after {content: '♦'}
+.suit-hearts:after {content: '♥'}
+.suit-spades:after {content: '♠'}
+
+.rank-2:before {content: '2'}
+.rank-3:before {content: '3'}
+.rank-4:before {content: '4'}
+.rank-5:before {content: '5'}
+.rank-6:before {content: '6'}
+.rank-7:before {content: '7'}
+.rank-8:before {content: '8'}
+.rank-9:before {content: '9'}
+.rank-10:before {content: '10'}
+.rank-J:before {content: 'J'}
+.rank-Q:before {content: 'Q'}
+.rank-K:before {content: 'K'}
+.rank-A:before {content: 'A'}
