@@ -1,5 +1,5 @@
 ---
-title: Garfield: The Search for Pooky -  Level Codes
+title: Garfield The Search for Pooky -  Level Codes
 permalink: /Garfield/The-Search-for-Pooky/
 ---
 
